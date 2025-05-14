@@ -12,7 +12,7 @@ public class Problema3_Autobus {
     public String nombre;
     public String grado;
     public int permiso;
-
+    public String validacion;
     public Problema3_Autobus(String nombre, String grado, int permiso) {
         this.nombre = nombre;
         this.grado = grado;
@@ -25,7 +25,7 @@ public class Problema3_Autobus {
 
     @Override
     public String toString() {
-        String validacion;
+        
         if (permiso == 1) {
             validacion = "Sí";
         } else {

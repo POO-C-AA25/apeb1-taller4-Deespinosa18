@@ -8,7 +8,7 @@ public class Problema3_EjecutorAutobus {
 
         System.out.print("Numero de estudiantes a registrar ");
         int numE = entrada.nextInt();
-        entrada.nextLine();
+        
         Problema3_Autobus[] estudiantes = new Problema3_Autobus[numE];
         int[] contador = new int[numE];
         for (int i = 0; i < numE; i++) {

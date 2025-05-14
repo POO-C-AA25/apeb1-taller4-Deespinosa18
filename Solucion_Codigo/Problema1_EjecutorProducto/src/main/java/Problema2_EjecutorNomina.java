@@ -74,15 +74,16 @@ public class Problema2_EjecutorNomina {
                         for (int i = 0; i < contador; i++) {
                             if (empleados[i].obtenerSalario() < promedio) {
                                 empleados[i].obtenerAumento(porcentaje);
-                                System.out.println("→ " + empleados[i].toString() + "\n");
+                                System.out.println("→ " + 
+                                        empleados[i].toString() + "\n");
                             }
                         }
                     }
-                    break;
+                
 
                 case 4:
                     System.out.println("Cierre del programa");
-                    break;
+                   
 
                 default:
                     System.out.println("Opción fuera de alcance");
